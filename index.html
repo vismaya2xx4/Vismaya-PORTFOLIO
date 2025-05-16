@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vismaya Vinod Nair</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animations.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+
+    <!-- Favicon (Logo in browser tab) -->
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/my_logo_nbg.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/my_logo_nbg.png">
+
+    <!-- Spline 
+    <script type="module" src="https://unpkg.com/@splinetool/viewer@1.9.96/build/spline-viewer.js"></script>
+    -->
+</head>
+
+
+<body>
+    <!-- Particle JS Background -->
+    <div id="particles-js"></div>
+
+    <!-- Particle JS Background 
+    <spline-viewer 
+        url="https://prod.spline.design/k0l11-3nVV0cq5ZK/scene.splinecode" 
+        style="position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: -1;">
+    </spline-viewer>
+  -->
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <img src="assets/images/my_logo_nbg.png" class="logo" style="position: relative;" alt="Logo">
+
+            <div class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+                <a href="projects.html" class="btn">Portfolio</a>
+            </div>
+            <div class="hamburger">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h4 class="subtitle">Hello, I'm</h4>
+                <h1 class="title">Vismaya Vinod Nair</h1>
+                <h2 class="typing-text">I'm a <span class="typed-text"></span></h2>
+                <p class="description">Cybersecurity enthusiast and front-end developer passionate about tech-driven social impact.</p>
+                <div class="hero-btns">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="assets/files/Vismaya_Vinod_Nair_Resume.pdf" download class="btn secondary">Download Resume</a>
+                </div>
+                <div class="social-icons">
+                    <a href="https://github.com/vismaya2xx4" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://linkedin.com/in/vismaya-vinod-nair-20a01a252" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:vismayav2xx4@gmail.com"><i class="fas fa-envelope"></i></a>
+                    <a href="tel:+918330010082"><i class="fas fa-phone"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="assets/images/me_hi_gif.gif" alt="Profile" style="position: relative; z-index: 7; max-width: 400px;">
+                <div class="circle-spin"></div>
+                <div class="tech-icons">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span>Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="assets/images/about.jpg" alt="About Vismaya">
+
+                </div>
+                <div class="about-text">
+                    <h3>Cybersecurity & Frontend Developer</h3>
+                    <p>I'm a Computer Science student specializing in Cybersecurity and Digital Forensics at VIT Bhopal University. I'm passionate about creating secure, user-friendly applications that make a positive social impact.</p>
+                    
+                    <div class="about-details">
+                        <div class="detail-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>Education</h4>
+                                <p>B.Tech in CSE (Cybersecurity & Digital Forensics)<br>VIT Bhopal University (2022-2026)</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Kottayam, Kerala, India</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-language"></i>
+                            <div>
+                                <h4>Languages</h4>
+                                <p>English, Malayalam, Hindi, Arabic, Tamil</p>
+                            </div>
+                        </div>
+                        <div class="detail-item">
+                            <i class="fas fa-trophy"></i>
+                            <div>
+                                <h4>Achievements</h4>
+                                <p> Global rank of 2822 out of 8765 participants in TCS CodeVita Season 12.<br>HackerRank 5★ in C++ & Python.<br> LeetCode streak of 330+ days.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="#contact" class="btn primary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Skills Section -->
+<section id="skills" class="skills-section">
+  <div class="container">
+    <h2 class="section-title">My <span>Skills</span></h2>
+
+    <!-- Technical Skill Icons Grid -->
+    <div class="skills-grid">
+      <!-- Skill Icon Cards -->
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/html.png" alt="HTML" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/css.png" alt="CSS" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/js.png" alt="JavaScript" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/cpp.png" alt="C++" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/python.png" alt="Python" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/java.png" alt="Java" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/dart.png" alt="Dart" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/figma.png" alt="Figma" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/flutter.png" alt="Flutter" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/kotlin.png" alt="Kotlin" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/Firebase.png" alt="Firebase" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/github.png" alt="GitHub" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/mysql.png" alt="MySQL" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/bootstrap.png" alt="Bootstrap" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/kali.png" alt="Kali Linux" /></div>
+      <div class="skill-card" data-aos="zoom-in"><img src="assets/images/icons/aws.png" alt="AWS" /></div>
+    </div>
+
+    <!-- Technical and Soft Skills Content -->
+    <div class="skills-content">
+      <!-- Technical Skills Column -->
+      <div class="skills-technical">
+        <h3></h3>
+
+        <!-- Programming Skills -->
+        <div class="skill-category">
+          <h4>Programming</h4>
+          <div class="skill-items">
+            <div class="skill-item" data-percent="90">
+              <div class="skill-info"><span>Java</span><span>70%</span></div>
+              <div class="skill-bar"><div class="skill-progress"></div></div>
+            </div>
+            <div class="skill-item" data-percent="95">
+              <div class="skill-info"><span>Python</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress"></div></div>
+            </div>
+            <div class="skill-item" data-percent="85">
+              <div class="skill-info"><span>C++</span><span>65%</span></div>
+              <div class="skill-bar"><div class="skill-progress"></div></div>
+            </div>
+            <div class="skill-item" data-percent="80">
+              <div class="skill-info"><span>Web-Development</span><span>90%</span></div>
+              <div class="skill-bar"><div class="skill-progress"></div></div>
+            </div>
+            <div class="skill-item" data-percent="85">
+              <div class="skill-info"><span>SQL</span><span>85%</span></div>
+              <div class="skill-bar"><div class="skill-progress"></div></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Tools -->
+        <div class="skill-category">
+          <h4>Frameworks & Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">React</span>
+            <span class="skill-tag">Node.js</span>
+            <span class="skill-tag">Flutter</span>
+            <span class="skill-tag">Firebase</span>
+            <span class="skill-tag">Android Studio</span>
+            <span class="skill-tag">Git</span>
+            <span class="skill-tag">Canva</span>
+          </div>
+        </div>
+
+        <!-- Cybersecurity Tools -->
+        <div class="skill-category">
+          <h4>Cybersecurity Tools</h4>
+          <div class="skill-tags">
+            <span class="skill-tag">Burp Suite</span>
+            <span class="skill-tag">Kali Linux</span>
+            <span class="skill-tag">Cyble.ai</span>
+            <span class="skill-tag">VirusTotal</span>
+            <span class="skill-tag">Cloudflare</span>
+            <span class="skill-tag">OWASP</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Soft Skills & Certifications Column -->
+      <div class="skills-soft">
+        <h3></h3>
+
+        <!-- Soft Skills Grid -->
+        <div class="soft-skills-grid">
+          <div class="soft-skill-item">
+            <div class="soft-skill-icon"><i class="fas fa-comments"></i></div>
+            <h4>Communication</h4>
+            <p>Effective verbal and written communication skills</p>
+          </div>
+          <div class="soft-skill-item">
+            <div class="soft-skill-icon"><i class="fas fa-brain"></i></div>
+            <h4>Critical Thinking</h4>
+            <p>Analytical problem-solving approach</p>
+          </div>
+          <div class="soft-skill-item">
+            <div class="soft-skill-icon"><i class="fas fa-bullhorn"></i></div>
+            <h4>Event Promotion</h4>
+            <p>Marketing and outreach expertise</p>
+          </div>
+          <div class="soft-skill-item">
+            <div class="soft-skill-icon"><i class="fas fa-users"></i></div>
+            <h4>Teamwork</h4>
+            <p>Collaborative and leadership skills</p>
+          </div>
+        </div>
+
+        <!-- Certifications -->
+        <div class="certifications">
+          <h3>Certifications</h3>
+          <div class="certification-slider">
+            <div class="certification-item">
+              <img src="assets/images/certs/google-cyber.png" alt="Google Cybersecurity" />
+              <p>Google Cybersecurity</p>
+            </div>
+            <div class="certification-item">
+              <img src="assets/images/certs/ethical-hacking.png" alt="EC-Council Ethical Hacking" />
+              <p>EC-Council Ethical Hacking</p>
+            </div>
+            <div class="certification-item">
+              <img src="assets/images/certs/IBM-Cyber-Analyst.png" alt="IBM Cyber Analyst" />
+              <p>IBM Cyber Analyst</p>
+            </div>
+            <div class="certification-item">
+              <img src="assets/images/certs/microsoft.png" alt="Microsoft UI/UX Design" />
+              <p>Microsoft UI/UX Design</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span>Projects</span></h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="cyber">Cybersecurity</button>
+                <button class="filter-btn" data-filter="web">Web Development</button>
+                <button class="filter-btn" data-filter="mobile">Mobile</button>
+                <button class="filter-btn" data-filter="ui">UI/UX</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-item" data-category="web,ui">
+                    <div class="project-image">
+                        <img src="assets/images/projects/unityserve.png" alt="Unity Serve">
+                        <div class="project-links">
+                            <a href="https://unityservengo-demo.web.app/" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/vismaya2xx4/Unity-Serve" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Unity Serve – NGO Platform</h3>
+                        <p>Team lead & UI/UX developer for a social-impact platform enabling donations, organ pledges & verified NGO contributions.</p>
+                        <div class="project-tech">
+                            <span>React</span>
+                            <span>Firebase</span>
+                            <span>Tailwind</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-item" data-category="web,cyber">
+                    <div class="project-image">
+                        <img src="assets/images/projects/CyberShield.png" alt="CYPICS">
+                        <div class="project-links">
+                            <a href="https://vismaya2xx4.github.io/CyberShield/" class="project-link"><i class="fas fa-link"></i></a>
+                            <a href="https://github.com/vismaya2xx4/CyberShield" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CyberShield - Security Awareness Platform</h3>
+                        <p>A modern cybersecurity education platform designed to help users identify and protect against digital threats through interactive learning tools.</p>
+                        <div class="project-tech">
+                            <span>Tailwind </span>
+                            <span>Quiz Module</span>
+                            <span>Password Checker</span>
+                            <span>Report Form</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-item" data-category="mobile,cyber">
+                    <div class="project-image">
+                        <img src="assets/images/projects/cypics1.jpg" alt="CYPICS">
+                        <div class="project-links">
+                            <a href="https://github.com/vismaya2xx4/Cypics" class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>CYPICS – Cyber Complaint Reporting App</h3>
+                        <p>Developed a mobile app for users to report cybercrimes in real-time with emergency contact features.</p>
+                        <div class="project-tech">
+                            <span>Android Studio</span>
+                            <span>Firebase</span>
+                            <span>SQL</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="project-item" data-category="cyber">
+                    <div class="project-image">
+                        <img src="assets/images/projects/steganography.png" alt="Steganography">
+                        <div class="project-links">
+                            <a href="https://github.com/vismaya2xx4/Coverless-Steganography " class="project-link"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Coverless Steganography – Based Secure Document System</h3>
+                        <p>Python-based tool to securely embed sensitive information within images using coverless steganography and AES encryption.</p>
+                        <div class="project-tech">
+                            <span>Python</span>
+                            <span>Pillow</span>
+                            <span>PyCryptodome</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="projects-more">
+                <a href="projects.html" class="btn primary">View All Projects</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience-section">
+    <div class="container">
+        <h2 class="section-title typewriter">My <span>Experience</span></h2>
+        
+        <div class="timeline">
+        <div class="timeline-item" data-aos="fade-right">
+            <div class="timeline-date">Nov–Dec 2024</div>
+            <div class="timeline-content experience-card">
+            <h3>Cybersecurity Intern</h3>
+            <h4>Arada Developments, Dubai</h4>
+            <p>Worked on security assessments and vulnerability testing for enterprise systems.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="100">
+            <div class="timeline-date">Jun–Jul 2024</div>
+            <div class="timeline-content experience-card">
+            <h3>Android Developer Intern</h3>
+            <h4>CodSoft</h4>
+            <p>Developed mobile applications with secure backend implementations.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-right" data-aos-delay="200">
+            <div class="timeline-date">Apr 2024–Present</div>
+            <div class="timeline-content experience-card">
+            <h3>Creative Core Team</h3>
+            <h4>Mozilla Firefox Club</h4>
+            <p>Leading creative initiatives for tech community engagement.</p>
+            </div>
+        </div>
+
+        <div class="timeline-item" data-aos="fade-left" data-aos-delay="300">
+            <div class="timeline-date">Nov 2023–Present</div>
+            <div class="timeline-content experience-card">
+            <h3>Media & Marketing Co-Lead</h3>
+            <h4>Cyber Warriors Club</h4>
+            <p>Managing digital presence and outreach for cybersecurity initiatives.</p>
+            </div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+
+    <!-- Contact Section -->
+ <section id="contact" class="contact-section">
+  <div class="container contact-wrapper" data-aos="fade-up">
+    <h2 class="section-title">Contact <span>Me</span></h2>
+
+    <div class="contact-card">
+      <!-- Left Column: Info -->
+      <div class="contact-left">
+        <h3>Get in Touch</h3>
+
+        <div class="contact-item">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <h4>Email</h4>
+            <p>vismayav2xx4@gmail.com</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-phone"></i>
+          <div>
+            <h4>Phone</h4>
+            <p>+91-8330010082</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <i class="fas fa-map-marker-alt"></i>
+          <div>
+            <h4>Location</h4>
+            <p>Kerala, India<br>Dubai, UAE</p>
+          </div>
+        </div>
+
+        <div class="contact-social-box">
+          <h4>Find me on</h4>
+          <div class="contact-social">
+            <a href="https://github.com/vismaya2xx4" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+            <a href="https://linkedin.com/in/vismaya-vinod-nair-20a01a252" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            <a href="#" target="_blank" title="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" target="_blank" title="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://leetcode.com/u/vismaya2xx4/" target="_blank" title="LeetCode">
+              <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/leetcode.svg" alt="LeetCode" class="leetcode-icon"/>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column: Form -->
+      <div class="contact-right">
+        <form id="contactForm" class="contact-form">
+          <div class="form-group">
+            <input type="text" id="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" id="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" id="subject" placeholder="Subject" />
+          </div>
+          <div class="form-group">
+            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <a href="#" class="logo">Vismaya<span>Vinod</span></a>
+                    <p>Cybersecurity enthusiast and front-end developer passionate about tech-driven social impact.</p>
+                </div>
+                <div class="footer-links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h3>Services</h3>
+                    <ul>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">UI/UX Design</a></li>
+                        <li><a href="#">Cybersecurity</a></li>
+                        <li><a href="#">Mobile Apps</a></li>
+                    </ul>
+                </div>
+                <div class="footer-newsletter">
+                    <h3>Newsletter</h3>
+                    <p>Subscribe to my newsletter for the latest updates.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Your Email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <p>&copy; 2025 Vismaya Vinod Nair. All Rights Reserved.</p>
+                <div class="footer-legal">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>    
+        AOS.init();
+    </script>
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <!-- Vanilla Tilt -->
+    <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.7.0/dist/vanilla-tilt.min.js"></script>
+
+    <script>
+    AOS.init();
+    VanillaTilt.init(document.querySelectorAll(".experience-card"), {
+        max: 10,
+        speed: 400,
+        glare: true,
+        "max-glare": 0.1,
+    });
+    </script>
+
+    <!-- Back to Top Button -->
+    <a href="#home" class="back-to-top"><i class="fas fa-arrow-up"></i></a>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <script src="assets/js/particles.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/animations.js"></script>
+
+    <!-- Form validation -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const form = document.getElementById('contactForm');
+
+            form.addEventListener('submit', function (e) {
+            e.preventDefault();
+
+            // Grab form field values
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const subject = document.getElementById('subject').value.trim();
+            const message = document.getElementById('message').value.trim();
+
+            // Basic validation
+            if (!name || !email || !message) {
+                alert('Please fill in all required fields (Name, Email, and Message).');
+                return;
+            }
+
+            // Optional: validate email format
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                alert('Please enter a valid email address.');
+                return;
+            }
+
+            // Show success (replace this with actual backend logic or email API call)
+            alert('Thank you! Your message has been sent successfully.');
+
+            // Clear form
+            form.reset();
+            });
+        });
+        </script>
+
+</body>
+</html>
